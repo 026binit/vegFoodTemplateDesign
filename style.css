@@ -85,5 +85,35 @@ body{
     background-size: cover;
 }
 .background-image-section--item-container{
-    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: -webkit-fill-available;
+}
+.background-image-section--item-container h1{
+    font-family: 'Life Savers', cursive;
+    color: #fff;
+    font-size: 40px;
+    font-weight: 100;
+}
+.background-image-section--item-container p{
+    color: #fff;
+    font-size: 14px;
+    font-weight: 100;
+}
+.background-image-section--item-container button{
+    background-color: #82AD46;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    padding: 10px 15px;
+    border-radius: 25px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.background-image-section--item-container button:hover{
+    background-color: transparent;
+    color: #82AD46;
+    border: 1px solid #82AD46;
 }
